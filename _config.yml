@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.4462366
 color:
   saturation: 0.970176
   lightness: 0.4995951
   brandStrength: 0.3036075
-  rhythmicContrast: 0.2131068
   brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
+    - '#999792'
+    - '#1B120B'
+    - '#DFF0FA'
+    - '#454138'
+    - '#911F20'
+  rhythmicContrast: 0.2131068
+layout_spectrum: 1
 name: ryanojohn
